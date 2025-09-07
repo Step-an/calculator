@@ -3,4 +3,14 @@ project(calculator)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(calculator main.cpp)
+add_executable(calculator main.cpp
+        Lexer.cpp
+        Lexer.h
+        Token.cpp
+        Token.h
+        ToeknId.h
+        ExprAST.h
+        BinaryExprAST.h
+        NumberExprAST.h
+        Parser.cpp
+        Parser.h)
