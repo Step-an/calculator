@@ -18,7 +18,7 @@ private:
     char getNextChar() { return current = code[++curIndex]; }
 
 public:
-    Lexer(std::string code, ILogger *logger) :
+    Lexer(std::string code) :
             code(std::move(code)) {};
 
     std::queue<Token> compile();

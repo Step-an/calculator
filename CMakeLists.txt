@@ -8,4 +8,9 @@ add_executable(calculator main.cpp
         Lexer.h
         Token.cpp
         Token.h
-        ToeknId.h)
+        ToeknId.h
+        ExprAST.h
+        BinaryExprAST.h
+        NumberExprAST.h
+        Parser.cpp
+        Parser.h)

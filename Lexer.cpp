@@ -1,4 +1,3 @@
-#include <pmix_deprecated.h>
 #include "Lexer.h"
 Token Lexer::getTok() {
     if (current == -2)
